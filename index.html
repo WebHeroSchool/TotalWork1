@@ -4,127 +4,130 @@
 		<meta charset="utf-8">
 		<title>Loco</title>
 		<link href="css/style.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
 	</head>
 	<body>
-		<header class="header">
-			<span clas="header__loco">LOCO</span><!--можно использовать h1 или вставить файл logo.png-->
-
-			<!--выбор языка-->
-			<div class="language">
-				<input  type="checkbox"  class="language__check">
-        		<label  for="language__check">RU</label>
-        		<nav  class ="language__check__nav">
-           		<a class="ru" href="#">ru</a>                
-             	<a class="en" href="#">en</a> 
-            	</nav> 
+		<header class="header">      
+			<div class="header__loco">LOCO</div>
+      
+			<!--выбор языка-->      
+			<div class="lang">
+				<input  type="checkbox"  class="lang__check" id="lang__check">
+        		<label  for="lang__check">RU</label>
+        		<nav  class ="lang-nav">
+           		<a class="lang-nav__link" href="#">ru</a>                
+             	<a class="lang-nav__link" href="#">en</a> 
+            </nav> 
     		</div>
 
     		<!--основное меню-->
- 			<div class="header__menu">
-		    	<div class="header__menu-icon">
-				    <span></span>
-				    <span></span>
-				</div>  
-			    <div class="header__menu__links">
-			       <a class="header__menu__links-item">пункт меню 1</a>
-			       <a class="header__menu__links-item">пункт меню 2</a>
-			    </div>
-			</div>
+        <div class="header__menu">
+          <input type="checkbox" class="header__menu-icon" id="header__menu-icon">
+          <label  for="header__menu-icon"></label>
+        	<span class="burger-line first"></span>
+          <span class="burger-line second"></span>
+        	<nav class="header__menu__links">
+        		<a class="header__menu__links-item">пункт меню 1</a>
+        		<a class="header__menu__links-item">пункт меню 2</a>
+        	</nav>
+        </div>      
 		</header>
 
-		<main class="main">
 			<!--First screen-->
-			<img class="main__img" src="img/girl.jpg" alt="Girl of LOCO">
-			<section class="firsr-section">
-				<h1 class="first-section__title">Новая коллекция</h1>
-				<p class="first-section__text">Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
-				<button class="section__btn-ect">Читать дальше</button>
-				<button class="section__btn-next">Другие предложения</button>				
+      
+
+  		<section class="main">
+        <div class="black-block"></div>
+        <img class="main__img-of-girl" src="img/girl.jpg" alt="Girl of LOCO">
+				<h1 class="main__title">Новая коллекция</h1>
+				<p class="main__text">Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
+				<button class="btn section__btn-ect">Читать дальше</button>
+				<button class="btn section__btn-next">Другие предложения</button>
+        <img  class="vector1" src="img/vector2.1.svg">			
 
 				<!--изображения и ссылки на соцсети-->
-				<a>
+				<a href="#" class="instagram-logo">
 					<img src="img/instagram.svg" title="Loco instagram" alt="loco instagram">
 				</a>
-				<a>
+				<a href="#" class="vk-logo">
 					<img src="img/vk.svg" title="Loco in VK" alt="loco in VK">
 				</a>
-				<a>
+				<a href="#" class="fb-logo">
 					<img src="img/fb.svg" title="Loco in FB" alt="loco in FB">
 				</a>
 				<!--изображение скролла-->
-				<div class="scroll">
-					<div class="scroll-roll"></div>
-				</div>
+				<img src="img/scrooll.svg" class="scrooll">
 			</section>
 			<!--First screen end-->
 
 			<!--Second screen -->
-			<section class="second-section">
-				<img class="second-section__klatch-1" src="img/klatch.png">
-				<img class="second-section__klatch-2" src="img/klatch-mini.png">
+			<section class="klatch">
+				<img class="klatch__klatch-gray" src="img/klatch-gray.png">
+				<img class="klatch__klatch-pink" src="img/klatch-pink.png">
+
 				<!--выбор параметров товара-->
-				<div class="parametr-box">
-					<h2>Кожаный клатч</h2>
-					<h3>осенняя колекция</h3>
-					<p>Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
+				<div class="box box-klatch">
+					<h2 class="box__title">Кожаный клатч</h2>
+					<h3 class="box__collection">осенняя колекция</h3>
+					<p class="box__text opasity-text" >Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
 
 					<!--выбор цвкта cкрыт, если его нет-->
-					<div class="parametr-box__parametr">
-						<div class="parametr-box__parametr-1"></div>
-						<div class="parametr-box__parametr-2"></div>
-						<div class="parametr-box__parametr-3"></div>
-						<div class="parametr-box__parametr-4"></div>
-					</div>
-					<div class="price">1990₽</div>
+						<div class="box__parametr-1"></div>
+						<div class="box__parametr-2"></div>
+						<div class="box__parametr-3"></div>
+						<div class="box__parametr-4"></div>
+            <div class="price">1990₽</div>
+					
 
 					<!--выбор количества-->
 					<div class="count">
-						<button class="count__plus">+</button>
-						<button class="count__minus">-</button>
-						<div class="count__counter">1</div>	
+						<button class="btn count__plus">+</button>
+            <div class="btn count__counter">1</div> 
+						<button class="btn count__minus">-</button>
 					</div>		
 
-					<button class="parametr-add">добавить в корзину</button>
+					<button class="btn parametr__btn-add">добавить в корзину</button>
+          <a class="more" href="#">другие товары на LOCO.COM</a>
+        <img class="vector2" src="img/vector2.2.svg">
 				</div>	
-				<a class="second-section__link" href="#">другие товары на LOCO.COM</a>
-				<img src="img/vector2.2.svg">
+				
 			</section>
 			<!--Second screen end-->
 
 			<!--Third screen -->
-			<section class="third-section">
+			<section class="staff">
 				<div classs="black-line"></div>
-				<img class="third-section__trash" src="img/trash.png">
+				<img class="staff__trash" src="img/trash.png">
 
 				<!--выбор параметров товара-->
-				<div class="parametr-box">
-					<h2>Serene Total Look</h2>
-					<h3>осенняя колекция</h3>
-					<p>Джинсы, свитер, обувь.В комплект также входит пакет ароматного чая и кружка.</p>
+				<div class="box box-staff">
+					<h2 class="box__title">Serene Total Look</h2>
+					<h3 class="box__collection">осенняя колекция</h3>
+					<p class="box__text opasity-text">Джинсы, свитер, обувь.В комплект также входит пакет ароматного чая и кружка.</p>
 
 					<!--выбор цвкта скрыт, если его нет-->
-					<div class="parametr-box__parametr">
-						<div class="parametr-box__parametr-1"></div>
-						<div class="parametr-box__parametr-2"></div>
-						<div class="parametr-box__parametr-3"></div>
-						<div class="parametr-box__parametr-4"></div>
+					<div class="box__parametr">
+						<div class="box__parametr-1"></div>
+						<div class="box__parametr-2"></div>
+						<div class="box__parametr-3"></div>
+						<div class="box__parametr-4"></div>
 					</div>
 					<div class="price">1990₽</div>
 
 					<!--выбор количества-->
 					<div class="count">
-						<button class="count__plus">+</button>
-						<button class="count__minus">-</button>
-						<div class="count__counter">1</div>	
+						<button class="btn count__plus">+</button>
+						<button class="btn count__minus">-</button>
+						<div class="btn count__counter">1</div>	
 					</div>		
 
-					<button class="parametr-add">добавить в корзину</button>
+					<button class="btn parametr__btn-add">добавить в корзину</button>
 				</div>	
-				<a class="second-selection__link" href="#">другие товары на LOCO.COM</a>
+				<a class="section__link" href="#">другие товары на LOCO.COM</a>
 				<img src="img/vector2.3.svg">
 			</section>
 			<!--Third screen end-->
-		</main>
+
 		<footer>
 			<p class="footer__text-dev">Pазработано в</p>
 			<!--вставить картинками, если со шрифтами не получится-->
