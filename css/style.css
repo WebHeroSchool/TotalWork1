@@ -1,0 +1,467 @@
+body {
+	width: 1440px;
+	margin: 0;
+}
+.header {
+	position: absolute;
+	width: 1440px;/*для других экранов надо поставить 100%*/
+	height: 92px;
+	z-index: 1;
+}
+.black-block{
+	position: absolute;
+	width: 461px;
+	height: 900px;
+	left: 0;
+	top: 0;
+	background: #000;
+}
+
+.header__loco {
+	position: absolute;
+	display: block;
+	width: 98px;
+	height: 37px;
+	left: 52px;
+	top: 36px;
+}
+
+/* Mеню выбора языка*/
+.lang {
+	position: absolute;
+	width: 31px;
+	height: 25px;
+	left: 388px;
+	text-align: center;
+	top: -65px;
+}
+
+.lang {
+    margin: 100px auto;
+    text-align: center;
+}
+
+#lang__check{
+    display: none;
+}
+
+label{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 2;
+    line-height: 40px;
+}
+
+.lang-nav{
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    transition: .5s all;
+    text-align: center;
+}
+
+.lang-nav__link{
+
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-top: 1px solid rgba(255,255,255,.3);
+    background-color: #000;
+}
+
+.lang-nav__link:hover{
+    background-color: rgba(0,0,0,.9);
+}
+
+.lang__check:checked ~ .lang-nav{
+    max-height: 500px;
+    font-size: 16px;
+}
+
+/*Меню основное*/
+
+.header__menu {
+	position: absolute;
+	right: 0;
+	display: inline-block;
+	width: 92px;
+	height: 92px;
+    background-color: rgb(0, 0, 0, .05);
+}
+
+#header__menu-icon{
+    display: none;
+ }
+
+label{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 2;
+    line-height: 40px;
+}
+
+.burger-line{
+	margin: 0 auto;
+	width: 34.7px;
+	height: 3.48px;
+	top: 39.54px;
+	left: 28.25px;
+	position: absolute;
+ 	background-color: #000;
+    transition: .5s all;
+}
+
+.burger-line-first {
+	top:  39.54px;;
+}
+
+.burger-line-second {
+    top: 48.98px;
+}
+
+.header__menu__links{
+    display: block;
+    position: absolute;
+    width:300px;
+    bottom: 0;
+    right: 0px;
+    transform: translateY(100%);
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    transition: .5s all;
+    background-color: rgba(0,0,0,.05);
+}
+
+.header__menu__links-item{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+.header__menu__links-item:hover{
+    background-color: rgba(0,0,0,.1);
+}
+
+#header__menu-icon:checked ~ .header__menu__links{
+    max-height: 500px;
+    font-size: 16px;
+    display: block;
+}
+
+#header__menu-icon:checked ~ .first{
+    transform: rotate(-45deg);
+   
+}
+
+#header__menu-icon:checked ~ .second{
+    transform: rotate(45deg);
+}
+.main {/* позиция первого экрана, без менюше, так как он в абсолюте*/
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 1440px;
+	height: 900px;
+}
+
+.main__img-of-girl {
+	position: absolute;
+	width: 549px;
+	height: 562px;
+	left: 186px;
+	top: 169px;
+}
+
+.main__title {
+	position: absolute;
+	width: 475px;
+	height: 164px;
+	left: 789px;
+	top: 193px;
+}
+.main__text {
+	position: absolute;
+	width: 467px;
+	height: 127px;
+	left: 789px;
+	top: 453px;
+}
+
+.btn {
+	border: 2px solid #000;
+	text-shadow: none;
+  	background-color: transparent;
+}
+.section__btn-ect {
+	position: absolute;
+	width: 203px;
+	height: 44px;
+	left: 786px;
+	top: 616px;
+	
+}
+
+.section__btn-next {
+	border: none;
+	position: absolute;
+	width: 172px;
+	height: 44px;
+	left: 1050px;
+	top: 615px;
+}
+
+.vector1 {
+	position: absolute;
+	width: 43px;
+	height: 13px;
+	left: 1247px;
+	top: 630px;
+}
+.instagram-logo {
+	position: absolute;
+	width: 42.98px;
+	height: 43px;
+	left: 52px;
+	top: 816px;
+
+}
+
+.vk-logo {
+	position: absolute;
+	width: 42.98px;
+	height: 43px;
+	left: 107.01px;
+	top: 816px;
+
+}
+
+.fb-logo {
+	position: absolute;
+	width: 42.98px;
+	height: 43px;
+	left: 162.02px;
+	top: 816px;
+
+}
+.scrooll {
+	position: absolute;
+	width: 308px;
+	height: 807px;
+	left: 426px;
+	top: 54px;
+}
+
+/*second screen*/
+.klatch {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 1440px;
+	height: 900px;
+	background: #FAE8E4;
+}
+
+.klatch__klatch-gray {
+	position: absolute;	
+	top: 217px;
+	left: 137px;
+	width: 398px;
+}
+
+.klatch__klatch-pink {
+	position: relative;
+	width: 582px;
+	left: 231px;
+	top: 28px;
+}
+
+
+.box{
+	display: inline-block;
+	position: relative;		
+}
+
+.box-klatch {	
+	width: 488px;
+	height: 556px;
+	left: 240px;
+	bottom: 100px;
+	background: #fff;	
+}
+
+.box__title {
+	margin:40px 0 17px 40px;
+}
+.box__collection {	
+	margin: 0 0 60px 40px;	
+}
+.box__text {
+	margin: 0 0 52px 40px;
+	width: 390px;
+}
+.box__parametr-1,
+.box__parametr-2,
+.box__parametr-3,
+.box__parametr-4 {
+	border-radius: 50%;
+	display: inline-block;
+	width: 30.18px;
+	height: 30px;	
+	margin: 0 10px 55px 0;	
+}
+.box__parametr-1{
+	margin-left: 40px;
+	background: #DEDEDE;
+}
+.box__parametr-2 {
+	background: #F29F9F;
+}
+.box__parametr-3 {
+	background: #A8BFF9;
+}
+
+.box__parametr-4 {
+	background: #90BD8F;
+	
+}
+.price {
+  display: inline-block;
+  position: relative;
+  left: 75px;
+  bottom: 60px;
+}
+.count {
+	margin-left: 40px;
+	border: 2px solid #000;
+	width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.count__plus,
+.count__minus,
+.count__counter {
+	border: none;
+	display: inline-block;
+	padding: 0;
+}
+.parametr__btn-add {
+	display: inline-block;
+	width: 253px;
+	height: 44px;
+	position: relative;
+	left: 170px;
+	bottom: 44px;
+}
+
+.more {
+	display: inline-block;
+	position: relative;	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 13px;
+}
+.box-klatch__more {
+	right: 250px;
+	top: 70px;
+}
+
+.vector2 {	
+	position: relative;
+	top: 40px;
+	left: 245px;
+		
+}
+
+
+/* third screen*/
+.staff {
+	height: 900px;
+	width: 1440px;
+	position: relative;
+	left: 0;
+	top: 0;
+	background: #EBE3D8;
+}
+
+.black-line {
+	position: absolute;
+	left: 388px;
+	background-color: #000;
+	width: 73px;
+	height: 900px;
+}
+.staff__trash {
+	width: 827px;
+	height: 621px;
+	display: inline-block;
+	position: relative;
+	margin: 139px 0 0 88px;
+}
+
+.box-staff {
+	bottom: 145px;
+	right: 100px;
+	width: 475px;
+	height: 351px;
+	background-color: #FAE8E4;
+}
+.box-staff__more {
+	top: 40px;
+	left: 120px;
+}
+.vector3 {
+	position: relative;
+	top: 40px;
+	left: 145px;
+}
+
+/*footer отдельно от всего на абсолюте*/
+footer {
+	position: relative;
+	bottom: 60px;
+	height: 60px;
+	width: 1440px;
+}
+.footer__text-dev {
+	position: absolute;
+	width: 100%;
+	display: inline-block;
+	left: 1180px;
+	margin-top: 22px;
+}
+.footer__text-webhero {
+	position: absolute;
+	display: inline-block;
+	left: 1307px;
+	margin-top: 18px;
+}
+.footer__text-shcool {
+	position: absolute;
+	display: inline-block;
+	left: 1345px;
+	margin-top: 38px;
+}
