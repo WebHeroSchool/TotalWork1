@@ -69,7 +69,7 @@ body {
 .main__text,
 .parametr-box__text {
 	font-weight: bold;
-	line-height: 22px;
+	line-height: 21px;
 	font-size: 15px;
 }
 
@@ -102,13 +102,15 @@ body {
 	line-height: 0px;
 	font-size: 13px;
 	text-transform: uppercase;
-	word-spacing: -1;/*добавил, чтобы буквы были похожи*/
+	
 }
-.more {	
-	letter-spacing: 1;/*добавил, чтобы буквы были похожи*/
+.section__btn-ect{	
+	letter-spacing: 1.2;/*добавил, чтобы буквы были похожи*/
+	word-spacing: -2;/*добавил, чтобы буквы были похожи*/
 }
-.btn {
-	letter-spacing: 0.9;/*добавил, чтобы буквы были похожи*/
+.section__btn-next{
+	letter-spacing: 0.87;/*добавил, чтобы буквы были похожи*/
+	word-spacing: -1.1;/*добавил, чтобы буквы были похожи*/
 }
 .count {
 	font-size: 15px;
