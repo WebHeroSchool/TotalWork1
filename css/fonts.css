@@ -68,8 +68,8 @@ body {
 
 .main__text,
 .parametr-box__text {
-	font-weight: normal;
-	line-height: 21px;
+	font-weight: bold;
+	line-height: 22px;
 	font-size: 15px;
 }
 
@@ -102,6 +102,13 @@ body {
 	line-height: 0px;
 	font-size: 13px;
 	text-transform: uppercase;
+	word-spacing: -1;/*добавил, чтобы буквы были похожи*/
+}
+.more {	
+	letter-spacing: 1;/*добавил, чтобы буквы были похожи*/
+}
+.btn {
+	letter-spacing: 0.9;/*добавил, чтобы буквы были похожи*/
 }
 .count {
 	font-size: 15px;
