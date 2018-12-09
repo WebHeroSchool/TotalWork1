@@ -56,9 +56,7 @@ body {
 	color: #fff;
 }
 
-
 /*  screens  */
-
 .main__title {
 	font-family: Montserrat-Bold;
 	font-weight: normal;
@@ -68,7 +66,7 @@ body {
 
 .main__text,
 .parametr-box__text {
-	font-weight: normal;
+	font-weight: bold;
 	line-height: 21px;
 	font-size: 15px;
 }
@@ -84,6 +82,7 @@ body {
 	line-height: 41px;
 	font-size: 40px;
 }
+
 .box__collection {
 	color: #000;
 	font-weight: bold;
@@ -102,10 +101,23 @@ body {
 	line-height: 0px;
 	font-size: 13px;
 	text-transform: uppercase;
+	
 }
+
+.section__btn-ect{	
+	letter-spacing: 1.2;/*добавил, чтобы буквы были похожи*/
+	word-spacing: -2;/*добавил, чтобы буквы были похожи*/
+}
+
+.section__btn-next{
+	letter-spacing: 0.87;/*добавил, чтобы буквы были похожи*/
+	word-spacing: -1.1;/*добавил, чтобы буквы были похожи*/
+}
+
 .count {
 	font-size: 15px;
 }
+
 .count__counter {
 	line-height: 3.5;
 }
@@ -114,20 +126,25 @@ body {
 	font-size: 13px;
 }
 
-
 /*footer*/
 .footer__text-dev,
 .footer__text-webhero,
 .footer__text-shcool {
+	font-family: Montserrat-Bold;
 	font-weight: bold;
 	line-height: normal;
 	font-size: 12px;
+}
+
+.footer__text-dev {
+	text-transform: uppercase;
 }
 
 .footer__text-webhero{
 	font-size: 15px;
 	color: #fd3;
 }
+
 .footer__text-shcool {
 	font-size: 10px;
 }
