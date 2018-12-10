@@ -8,7 +8,7 @@ body {
 	height: 92px;
 	z-index: 1;
 }
-.black-block{
+.left-block{
 	position: absolute;
 	width: 461px;
 	height: 900px;
@@ -130,7 +130,7 @@ label{
 }
 
 .burger-line-first {
-	top:  39.54px;;
+	top:  39.54px;
 }
 
 .burger-line-second {
@@ -169,13 +169,13 @@ label{
     display: block;
 }
 
-#header__menu-icon:checked ~ .first{
-    transform: rotate(-45deg);
+#header__menu-icon:checked ~ .burger-line-first{
+    transform: rotate(-45deg) translateY(5px);	
    
 }
 
-#header__menu-icon:checked ~ .second{
-    transform: rotate(45deg);
+#header__menu-icon:checked ~ .burger-line-second{
+    transform: rotate(45deg) translateY(-5px);
 }
 .main {/* позиция первого экрана, без менюше, так как он в абсолюте*/
 	position: relative;
@@ -193,14 +193,14 @@ label{
 	top: 169px;
 }
 
-.main__title {
+.main__box__title {
 	position: absolute;
 	width: 475px;
 	height: 164px;
 	left: 789px;
 	top: 205px;
 }
-.main__text {
+.main__box__text {
 	position: absolute;
 	width: 467px;
 	height: 127px;
@@ -213,7 +213,7 @@ label{
 	text-shadow: none;
   	background-color: transparent;
 }
-.section__btn-ect {
+.main__box__btn {
 	position: absolute;
 	width: 203px;
 	height: 44px;
@@ -222,7 +222,7 @@ label{
 	
 }
 
-.section__btn-next {
+.main__box__link {
 	border: none;
 	position: absolute;
 	height: 44px;
@@ -272,7 +272,7 @@ label{
 }
 
 /*second screen*/
-.klatch {
+.bag {
 	position: relative;
 	left: 0;
 	top: 0;
@@ -281,14 +281,14 @@ label{
 	background: #FAE8E4;
 }
 
-.klatch__klatch-gray {
+.bag-gray {
 	position: absolute;	
 	top: 217px;
 	left: 137px;
 	width: 398px;
 }
 
-.klatch__klatch-pink {
+.bag-pink {
 	position: relative;
 	width: 582px;
 	left: 231px;
@@ -301,7 +301,7 @@ label{
 	position: relative;		
 }
 
-.box-klatch {	
+.box-product {	
 	width: 488px;
 	height: 556px;
 	left: 240px;
@@ -319,31 +319,14 @@ label{
 	margin: 0 0 52px 40px;
 	width: 390px;
 }
-.box__parametr-1,
-.box__parametr-2,
-.box__parametr-3,
-.box__parametr-4 {
+.box__parametr {
 	border-radius: 50%;
 	display: inline-block;
 	width: 30.18px;
 	height: 30px;	
 	margin: 0 10px 55px 0;	
 }
-.box__parametr-1{
-	margin-left: 40px;
-	background: #DEDEDE;
-}
-.box__parametr-2 {
-	background: #F29F9F;
-}
-.box__parametr-3 {
-	background: #A8BFF9;
-}
 
-.box__parametr-4 {
-	background: #90BD8F;
-	
-}
 .price {
   display: inline-block;
   position: relative;
@@ -365,7 +348,7 @@ label{
 	display: inline-block;
 	padding: 0;
 }
-.parametr__btn-add {
+.count__btn-add {
 	display: inline-block;
 	width: 253px;
 	height: 44px;
@@ -428,7 +411,7 @@ label{
 	height: 351px;
 	background-color: #FAE8E4;
 }
-.box-staff__more {
+.box-staff__link-more {
 	top: 40px;
 	left: 120px;
 }
