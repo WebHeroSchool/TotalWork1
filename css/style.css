@@ -8,14 +8,6 @@ body {
 	height: 92px;
 	z-index: 1;
 }
-.left-block{
-	position: absolute;
-	width: 461px;
-	height: 900px;
-	left: 0;
-	top: 0;
-	background: #000;
-}
 
 .header__loco {
 	position: absolute;
@@ -183,6 +175,8 @@ label{
 	left: 0;
 	width: 1440px;
 	height: 900px;
+	/* вместо черного блока на первом экране */
+	background: linear-gradient(to right, #000 32%, #fff 32%, #fff 68%);
 }
 
 .main__img-of-girl {
@@ -386,16 +380,10 @@ label{
 	position: relative;
 	left: 0;
 	top: 0;
-	background: #EBE3D8;
+	/* вместо черной линии на третьем экране */
+	background: linear-gradient(to right, #EBE3D8 27%, #000 27%, #000 32%, #EBE3D8 32%, #EBE3D8 68%);
 }
 
-.black-line {
-	position: absolute;
-	left: 388px;
-	background-color: #000;
-	width: 73px;
-	height: 900px;
-}
 .staff__trash {
 	width: 827px;
 	height: 621px;
