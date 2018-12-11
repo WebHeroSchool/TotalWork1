@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Loco</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">      
+      <div class="header__loco">LOCO</div>
+<!--  выбор языка  -->      
+      <div class="lang">
+        <input  type="checkbox"  class="lang__check" id="lang__check">
+            <label  for="lang__check">RU</label>
+            <nav  class ="lang-nav">
+              <a class="lang-nav__link" href="#">ru</a>                
+              <a class="lang-nav__link" href="#">en</a> 
+            </nav> 
+        </div>
+<!--основное меню-->
+        <div class="header__menu">
+          <input type="checkbox" class="header__menu-icon" id="header__menu-icon">
+          <label  for="header__menu-icon"></label>
+          <span class="burger-line burger-line-first"></span>
+          <span class="burger-line burger-line-second"></span>
+          <nav class="header__menu__links">
+            <a class="header__menu__links-item">пункт меню 1</a>
+            <a class="header__menu__links-item">пункт меню 2</a>
+          </nav>
+        </div>      
+    </header>
+<!--First screen--> 
+    <section class="main">
+      <img class="main__img-of-girl" src="img/girl.png" alt="Girl of LOCO">
+      <div class="main__box">
+      <h1 class="main__box__title">Новая коллекция</h1>
+      <p class="main__box__text">Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
+      <button class="btn main__box__btn">Читать дальше</button>
+      <a href="#" class="link main__box__link">Другие предложения</a>
+      <img  class="vector1" src="img/vec1.svg">
+      </dvi>  
+<!--изображения и ссылки на соцсети-->
+      <div class="social-networks">
+        <a href="#" class="instagram-logo">
+          <img src="img/instagram.svg" title="Loco instagram" alt="loco instagram">
+        </a>
+        <a href="#" class="vk-logo">
+          <img src="img/vcontacte.svg" title="Loco in VK" alt="loco in VK">
+        </a>
+        <a href="#" class="fb-logo">
+          <img src="img/facebook.svg" title="Loco in FB" alt="loco in FB">
+        </a>
+      </div>
+<!--изображение скролла-->
+      <img src="img/scrooll.svg" class="scrooll">
+    </section>
+<!--Second screen  -->
+    <section class="bag">
+      <img class="bag-gray" src="img/bag-gray.png">
+      <img class="bag-pink" src="img/bag-pink.png">
+<!--выбор параметров товара-->
+      <div class="box box-product">
+        <h2 class="box__title">Кожаный клатч</h2>
+        <h3 class="box__collection">осенняя колекция</h3>
+        <p class="box__text opasity-text">Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
+<!--выбор цвкта cкрыт, если его нет-->
+        <div class="box-parametr">
+          <div class="box-parametr__parametr box-parametr__parametr-gray"></div>
+          <div class="box-parametr__parametr box-parametr__parametr-pink"></div>
+          <div class="box-parametr__parametr box-parametr__parametr-blue"></div>
+          <div class="box-parametr__parametr box-parametr__parametr-green"></div>
+          <span class="price">1990₽</span>
+        </div>
+<!--выбор количества-->
+        <div class="count">
+          <button class="btn count__plus">+</button>
+          <div class="btn count__counter">1</div> 
+          <button class="btn count__minus">-</button>
+        </div>    
+        <button class="btn box__btn-add">добавить в корзину</button>
+        <a class="link box__link-more" href="#">другие товары на LOCO.COM</a>
+      <img class="vector2" src="img/vec2.svg">
+      </div>        
+    </section>
+<!--Third screen -->
+    <section class="staff">
+      <img class="staff__trash" src="img/trash.png">
+<!--выбор параметров товара-->
+      <div class="box box-staff">
+        <h2 class="box__title">Serene Total Look</h2>
+        <h3 class="box__collection">осенняя колекция</h3>
+        <p class="box__text opasity-text">Джинсы, свитер, обувь.В комплект также входит пакет ароматного чая и кружка.</p>
+<!--выбор количества-->
+        <div class="count">
+          <button class="btn count__plus">+</button>
+          <div class="btn count__counter">1</div> 
+          <button class="btn count__minus">-</button>            
+        </div>  
+        <button class="btn count__btn-add">добавить в корзину</button>
+        <a class="link box-staff__link-more" href="#">другие товары на LOCO.COM</a>
+        <img class="vector3" src="img/vec3.svg">
+      </div>     
+    </section>
+<!--Footer-->
+    <footer>
+      <p class="footer__text-dev">разработано в</p>
+<!--вставить картинками, если со шрифтами не получится-->
+      <P class="footer__text-webhero">WebHero</P>
+      <p class="footer__text-shcool">Shcool</p>
+    </footer>
+  </body>
+</html>
