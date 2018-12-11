@@ -21,9 +21,9 @@
 }
 @font-face {
 	font-family: 'Montserrat-Bold';
-	src: url('../fonts/Montserrat.woff') format('woff'),
-		 url('../fonts/Montserrat.woff2') format('woff2'),
-		 url("../fonts/Montserrat.ttf") format("truetype");
+	src: url('../fonts/Montserrat-Rgular.woff') format('woff'),
+		 url('../fonts/Montserrat-Rgular.woff2') format('woff2'),
+		 url("../fonts/Montserrat-Rgular.ttf") format("truetype");
 	font-weight: bold;
 	font-style: normal;
 }
