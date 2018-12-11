@@ -14,7 +14,7 @@ body {
 	display: inline-block;
 	width: 98px;
 	height: 37px;
-	margin: 36px 238px 0 56px;
+	margin: 36px 238px 0 52px;
 }
 
 /* Mеню выбора языка*/
@@ -23,7 +23,7 @@ body {
 	display: inline-block;
 	width: 31px;
 	height: 25px;
-	margin-top: 36px;
+	margin-top: 34px;
 }
 
 #lang__check{
@@ -167,7 +167,7 @@ label{
 
 .main__img-of-girl {
 	display: inline-block;
-	margin: 169px 54px 0 186px;
+	margin: 169px 50px 9px 186px;
 	width: 549px;
 	height: 562px;
 }
@@ -181,7 +181,7 @@ label{
 .main__box__title {
 	width: 475px;
 	margin-top: 0;
-	margin-bottom: 26px;
+	margin-bottom: 10px;
 	height: 164px;
 }
 .main__box__text {

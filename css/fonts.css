@@ -10,7 +10,8 @@
 	font-weight: normal;
 	font-style: normal;
 
-}@font-face {
+}
+@font-face {
 	font-family: 'Montserrat-Medium';
 	src: url('../fonts/Montserrat-Medium.woff') format('woff'),
 		 url('../fonts/Montserrat-Medium.woff2') format('woff2'),
@@ -18,7 +19,15 @@
 	font-weight: 500;
 	font-style: normal;
 }
-
+@font-face {
+	font-family: 'Montserrat-Bold';
+	src: url('../fonts/Montserrat.woff') format('woff'),
+		 url('../fonts/Montserrat.woff2') format('woff2'),
+		 url("../fonts/Montserrat.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+/*
 @font-face {
 	font-family: 'Montserrat-Bold';
 	src: url('../fonts/Montserrat-Bold.woff') format('woff'),
@@ -26,7 +35,7 @@
 		 url("../fonts/Montserrat-Bold.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
-}
+}*/
 
 body {
 	font-family: Montserrat;
@@ -52,6 +61,7 @@ body {
 	font-size: 20px;
 	text-align: right;
 	color: #fff;
+	letter-spacing: 0.01em;
 }
 
 
