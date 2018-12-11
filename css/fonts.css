@@ -1,37 +1,44 @@
 /* Используемые шрифты:
 -Montserrat-Regular
--Montserrat-Bold  */
+-Montserrat-Bold 
+-Montserrat-Medium */
 @font-face {
 	font-family: 'Montserrat';
-	src: url('../fonts/Montserrat-Regular.eot');
-	src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/Montserrat-Regular.woff') format('woff'),
-	url('../fonts/Montserrat-Regular.ttf') format('truetype');
+	src: url('../fonts/Montserrat-Regular.woff') format('woff'),
+		 url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+		 url("../fonts/Montserrat-Regular.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
+
 }
 @font-face {
-	font-family: 'Montserrat';
-	src: url('../fonts/Montserrat-Regular.eot');
-	src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/Montserrat-Regular.woff') format('woff'),
-	url('../fonts/Montserrat-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: bold;
+	font-family: 'Montserrat-Medium';
+	src: url('../fonts/Montserrat-Medium.woff') format('woff'),
+		 url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+		 url("../fonts/Montserrat-Medium.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
 }
 @font-face {
 	font-family: 'Montserrat-Bold';
-	src: url('../fonts/Montserrat-Bold.eot');
-	src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/Montserrat-Bold.woff') format('woff'),
-	url('../fonts/Montserrat-Bold.ttf') format('truetype');
-	font-weight: normal;
+	src: url('../fonts/Montserrat-Regular.woff') format('woff'),
+		 url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+		 url("../fonts/Montserrat-Regular.ttf") format("truetype");
+	font-weight: bold;
 	font-style: normal;
 }
+/*
+@font-face {
+	font-family: 'Montserrat-Bold';
+	src: url('../fonts/Montserrat-Bold.woff') format('woff'),
+		 url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+		 url("../fonts/Montserrat-Bold.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}*/
 
 body {
 	font-family: Montserrat;
-	font-style: normal;
 	color: #000;
 }
 
@@ -54,6 +61,7 @@ body {
 	font-size: 20px;
 	text-align: right;
 	color: #fff;
+	letter-spacing: 0.01em;
 }
 
 
@@ -61,14 +69,14 @@ body {
 
 .main__box__title {
 	font-family: Montserrat-Bold;
-	font-weight: normal;
+	font-weight: bold;
 	line-height: 82px;
 	font-size: 80px;
 }
 
 .main__box__text,
 .parametr-box__text {
-	font-weight: bold;
+	font-weight: normal;
 	line-height: 21px;
 	font-size: 15px;
 }
@@ -98,10 +106,14 @@ body {
 
 .btn,
 .link {
+	font-family: Montserrat-Medium;
+	font-style: normal;
 	font-weight: 500;
 	line-height: 0px;
 	font-size: 13px;
+	text-decoration: none;
 	text-transform: uppercase;
+	color: #000;
 	
 }
 .main__box__btn{	
