@@ -5,28 +5,27 @@
 @font-face {
 	font-family: 'Montserrat';
 	src: url('../fonts/Montserrat-Regular.woff') format('woff'),
-		 url('../fonts/Montserrat-Regular.woff2') format('woff2'),
-		 url("../fonts/Montserrat-Regular.ttf") format("truetype");
-	font-weight: normal;
+	url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+	url("../fonts/Montserrat-Regular.ttf") format("truetype");
+	font-weight: 400;
 	font-style: normal;
-
 }
 
 @font-face {
-	font-family: 'Montserrat-Medium';
+	font-family: 'Montserrat';
 	src: url('../fonts/Montserrat-Medium.woff') format('woff'),
-		 url('../fonts/Montserrat-Medium.woff2') format('woff2'),
-		 url("../fonts/Montserrat-Medium.ttf") format("truetype");
+	url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+	url("../fonts/Montserrat-Medium.ttf") format("truetype");
 	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Montserrat-Bold';
+	font-family: 'Montserrat';
 	src: url('../fonts/Montserrat-Bold.woff') format('woff'),
-		 url('../fonts/Montserrat-Bold.woff2') format('woff2'),
-		 url("../fonts/Montserrat-Bold.ttf") format("truetype");
-	font-weight: normal;
+	url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+	url("../fonts/Montserrat-Bold.ttf") format("truetype");
+	font-weight: 700;
 	font-style: normal;
 }
 
@@ -45,8 +44,11 @@ body {
 .header__loco,
 .lang,
 .header__menu-icon {
-	font-size: 30px;
 	text-align: center;
+	
+}
+.header__loco{
+	font-size: 30px;
 	letter-spacing: 0.07em;
 }
 
@@ -60,9 +62,12 @@ body {
 
 /*  screens  */
 
-.main__box__title {
-	font-family: Montserrat-Bold;
+.main__box__title,
+.box__title,
+.price {
 	font-weight: bold;
+}
+.main__box__title {
 	line-height: 82px;
 	font-size: 80px;
 }
@@ -80,10 +85,9 @@ body {
 
 .box__title,
 .price {
-	font-family: Montserrat-Bold;
-	font-weight: bold;
 	line-height: 41px;
 	font-size: 40px;
+
 }
 .box__collection {
 	color: #000;
@@ -99,7 +103,7 @@ body {
 
 .btn,
 .link {
-	font-family: Montserrat-Medium;
+	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 500;
 	line-height: 0px;
@@ -133,7 +137,7 @@ body {
 .footer__text-dev,
 .footer__text-webhero,
 .footer__text-shcool {
-	font-family: Montserrat-Bold;
+	font-family: Montserrat;
 	font-weight: bold;
 	line-height: normal;
 	font-size: 12px;
