@@ -19,15 +19,7 @@
 	font-weight: 500;
 	font-style: normal;
 }
-@font-face {
-	font-family: 'Montserrat-Bold';
-	src: url('../fonts/Montserrat.woff') format('woff'),
-		 url('../fonts/Montserrat.woff2') format('woff2'),
-		 url("../fonts/Montserrat.ttf") format("truetype");
-	font-weight: bold;
-	font-style: normal;
-}
-/*
+
 @font-face {
 	font-family: 'Montserrat-Bold';
 	src: url('../fonts/Montserrat-Bold.woff') format('woff'),
@@ -69,7 +61,7 @@ body {
 
 .main__box__title {
 	font-family: Montserrat-Bold;
-	font-weight: 500;
+	font-weight: bold;
 	line-height: 82px;
 	font-size: 80px;
 }
