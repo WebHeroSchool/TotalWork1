@@ -11,6 +11,7 @@
 	font-style: normal;
 
 }
+
 @font-face {
 	font-family: 'Montserrat-Medium';
 	src: url('../fonts/Montserrat-Medium.woff') format('woff'),
@@ -27,7 +28,7 @@
 		 url("../fonts/Montserrat-Bold.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
-}*/
+}
 
 body {
 	font-family: Montserrat;
