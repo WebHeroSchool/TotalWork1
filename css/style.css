@@ -3,34 +3,27 @@ body {
 	margin: 0;
 }
 .header {
+	display: flex;
 	position: absolute;
 	width: 1440px;/*для других экранов надо поставить 100%*/
 	height: 92px;
-	z-index: 1;
+	z-index: 10;
 }
 
 .header__loco {
-	position: absolute;
-	display: block;
+	display: inline-block;
 	width: 98px;
 	height: 37px;
-	left: 52px;
-	top: 36px;
+	margin: 36px 238px 0 56px;
 }
 
 /* Mеню выбора языка*/
 .lang {
-	position: absolute;
+	position: relative;
+	display: inline-block;
 	width: 31px;
 	height: 25px;
-	left: 388px;
-	text-align: center;
-	top: -65px;
-}
-
-.lang {
-    margin: 100px auto;
-    text-align: center;
+	margin-top: 36px;
 }
 
 #lang__check{
@@ -38,10 +31,6 @@ body {
 }
 
 label{
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     cursor: pointer;
@@ -51,26 +40,22 @@ label{
 
 .lang-nav{
     display: block;
-    position: absolute;
     width: 100%;
-    bottom: 0;
-    left: 0;
-    transform: translateY(100%);
+    transform: translateY(50%);
     max-height: 0;
     font-size: 0;
     overflow: hidden;
     transition: .5s all;
-    text-align: center;
+    text-align: left;
 }
 
-.lang-nav__link{
-
+.lang-nav__link {
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     color: white;
     text-decoration: none;
-    border-top: 1px solid rgba(255,255,255,.3);
+    border-bottom: 1px solid rgba(255,255,255,.3);
     background-color: #000;
 }
 
@@ -87,6 +72,7 @@ label{
 
 .header__menu {
 	position: absolute;
+	top: 0;
 	right: 0;
 	display: inline-block;
 	width: 92px;
@@ -180,26 +166,29 @@ label{
 }
 
 .main__img-of-girl {
-	position: absolute;
+	display: inline-block;
+	margin: 169px 54px 0 186px;
 	width: 549px;
 	height: 562px;
-	left: 186px;
-	top: 169px;
 }
 
+.main__box {
+	display: inline-block;
+	transform: translateY(-100px);
+	margin-bottom: 56px;
+
+}
 .main__box__title {
-	position: absolute;
 	width: 475px;
+	margin-top: 0;
+	margin-bottom: 26px;
 	height: 164px;
-	left: 789px;
-	top: 205px;
 }
 .main__box__text {
-	position: absolute;
 	width: 467px;
 	height: 127px;
-	left: 789px;
-	top: 437px;
+	margin-bottom: 36px;
+
 }
 
 .btn {
@@ -208,61 +197,40 @@ label{
   	background-color: transparent;
 }
 .main__box__btn {
-	position: absolute;
 	width: 203px;
 	height: 44px;
-	left: 786px;
-	top: 616px;
-	
+	margin-right: 54px;
 }
 
 .main__box__link {
 	border: none;
-	position: absolute;
 	height: 44px;
-	left: 1050px;
-	top: 617px;
+	margin-right: 19px;
 }
 
 .vector1 {
-	position: absolute;
 	width: 43px;
 	height: 13px;
-	left: 1247px;
-	top: 630px;
 }
-.instagram-logo {
-	position: absolute;
+.social-networks {
+	margin-left: 52px;
+}
+
+.instagram-logo,
+.fb-logo,
+.vk-logo {	
 	width: 42.98px;
 	height: 43px;
-	left: 52px;
-	top: 816px;
-
+	margin-left: 12.03px;
+	text-decoration: none;
 }
 
-.vk-logo {
-	position: absolute;
-	width: 42.98px;
-	height: 43px;
-	left: 107.01px;
-	top: 816px;
-
-}
-
-.fb-logo {
-	position: absolute;
-	width: 42.98px;
-	height: 43px;
-	left: 162.02px;
-	top: 816px;
-
-}
 .scrooll {
 	position: absolute;
+    bottom: 40px;
+    left: 430px;
 	width: 308px;
 	height: 807px;
-	left: 426px;
-	top: 54px;
 }
 
 /*second screen*/
