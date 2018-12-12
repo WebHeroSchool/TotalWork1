@@ -25,11 +25,11 @@
 	src: url('../fonts/Montserrat-Bold.woff') format('woff'),
 	url('../fonts/Montserrat-Bold.woff2') format('woff2'),
 	url("../fonts/Montserrat-Bold.ttf") format("truetype");
-	font-weight: 700;
+	font-weight: bold;
 	font-style: normal;
 }
 
-body {
+body{
 	font-family: Montserrat;
 	color: #000;
 }
@@ -65,7 +65,7 @@ body {
 .main__box__title,
 .box__title,
 .price {
-	font-weight: bold;
+	font-weight: ;
 }
 .main__box__title {
 	line-height: 82px;

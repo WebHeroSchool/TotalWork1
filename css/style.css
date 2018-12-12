@@ -166,6 +166,7 @@ label{
 }
 
 .main__img-of-girl {
+	content: url(../img/girl.png);
 	display: inline-block;
 	margin: 169px 50px 9px 186px;
 	width: 549px;
@@ -209,6 +210,7 @@ label{
 }
 
 .vector1 {
+	content: url(../img/vec1.svg);
 	width: 43px;
 	height: 13px;
 }
@@ -244,6 +246,7 @@ label{
 }
 
 .bag-gray {
+	content: url(../img/bag-gray.png);
 	position: absolute;	
 	top: 217px;
 	left: 137px;
@@ -251,6 +254,7 @@ label{
 }
 
 .bag-pink {
+	content: url(../img/bag-pink.png);
 	position: relative;
 	width: 582px;
 	left: 231px;
@@ -334,6 +338,7 @@ label{
 }
 
 .vector2 {	
+	content: url(../img/vec2.svg);
 	position: relative;
 	top: 40px;
 	left: 245px;
@@ -353,6 +358,7 @@ label{
 }
 
 .staff__trash {
+	content: url(../img/trash.png);
 	width: 827px;
 	height: 621px;
 	display: inline-block;
@@ -372,6 +378,7 @@ label{
 	left: 120px;
 }
 .vector3 {
+	content: url(../img/vec3.svg);
 	position: relative;
 	top: 40px;
 	left: 145px;
